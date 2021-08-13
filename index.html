@@ -4,23 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>yo</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <main>
-        <section id="SE-container" class="hide">
-            <h1>Library of Congress Search Engine</h1>
-            <form class="row" action="search-field"></form>
-            <form class="row" action="select-format"></form>
-            <button class="btn" id="submit-btn"></button>
+        <section id="SE-container" class="hide1">
+            <form>
+                <h1 class="">Library of Congress Search Engine</h1>
+                <div class="row form-group">
+                    <input class="col-12" type="blank" class="form-control" id="searchInput" aria-describedby="emailHelp" placeholder="Enter email">
+                 
+                </div>
+                <div class="form-check">
+                    <select class="col-12 form-control">
+                        <option>Select a format</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Search</button>
+              </form>
         </section>
-        <section id="results-container" class="hide">
+        <section id="results-container" class="hide2">
             <h1>Library of Congress</h1>
-            <form class="row"action="serch-field"></form>
-            <form class="row" action="select-format2"></form>
-            <button class="btn" id="search-btn"></button>
-            <button class="btn" id="back-btn"></button>
+            <div class="row form-group">
+                <input class="col-12" type="blank" class="form-control" id="searchInput" aria-describedby="emailHelp" placeholder="Enter email">
+             
+            </div>
+            <div class="form-check">
+                <select class="col-12 form-control">
+                    <option>Select a format</option>
+                </select>
+            </div>
+            <button type="button" class="btn btn-success btn-lg btn-block">Search</button>
+            <button type="button" class="btn btn-danger btn-lg btn-block">Go Back</button>
         </section>
     </main>
 </body>
