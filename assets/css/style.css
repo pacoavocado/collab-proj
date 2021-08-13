@@ -10,16 +10,17 @@ h1 {
 
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     
     background-color: blue;
     height: 100vh;
 }
 
 #SE-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
     padding: 5rem 8rem;
     background-color: cornsilk;
